@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "611fda8655b9cde5a8496ddc"
+  },
+  "OWNER": "1394b25b-2e6d-4c92-92db-fd0d8a3b5630",
+  "NAME": "VILLAGE"
+},{
+  "_id": {
+    "$oid": "611fdaf22e6e99cc57e662e6"
+  },
+  "OWNER": "1394b25b-2e6d-4c92-92db-fd0d8a3b5630",
+  "NAME": "odeon"
+},{
+  "_id": {
+    "$oid": "611fdcf70623025d05ebe9ae"
+  },
+  "OWNER": "TAKIS",
+  "NAME": "BRYO"
+},{
+  "_id": {
+    "$oid": "61276fc8fbc03e8c5e5f1490"
+  },
+  "OWNER": "1394b25b-2e6d-4c92-92db-fd0d8a3b5630",
+  "NAME": "test"
+},{
+  "_id": {
+    "$oid": "61279b78fbc03e8c5e5f1496"
+  },
+  "OWNER": "b57a09c5-b38f-43f9-a3f6-395515ecdfdc",
+  "NAME": "Sters"
+},{
+  "_id": {
+    "$oid": "61279c29fbc03e8c5e5f149b"
+  },
+  "OWNER": "b57a09c5-b38f-43f9-a3f6-395515ecdfdc",
+  "NAME": "egw"
+},{
+  "_id": {
+    "$oid": "61279c4dfbc03e8c5e5f149c"
+  },
+  "OWNER": "b57a09c5-b38f-43f9-a3f6-395515ecdfdc",
+  "NAME": "esy"
+}]

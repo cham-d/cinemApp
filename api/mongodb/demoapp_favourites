@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "61221ea98a9be8a0b103791a"
+  },
+  "USERID": "6dea5cbe-e0c4-4bf8-adc6-e4b2bbc54dac",
+  "MOVIEID": "611143a60766c95a37b84b4e"
+},{
+  "_id": {
+    "$oid": "61223df75440c39ad3f0c4a8"
+  },
+  "USERID": "6dea5cbe-e0c4-4bf8-adc6-e4b2bbc54dac",
+  "MOVIEID": "611143b00766c95a37b84b52"
+},{
+  "_id": {
+    "$oid": "6123cd1f2cf0750b80f88ce3"
+  },
+  "USERID": "6dea5cbe-e0c4-4bf8-adc6-e4b2bbc54dac",
+  "MOVIEID": "610448e8de7855e73f508c03"
+},{
+  "_id": {
+    "$oid": "61273f10739308d2d11ed172"
+  },
+  "USERID": "fc2210ef-85e3-4e0f-b6b9-0da2c99078eb",
+  "MOVIEID": "611115d8558e4071417901a8"
+},{
+  "_id": {
+    "$oid": "6127723afbc03e8c5e5f1495"
+  },
+  "USERID": "fc2210ef-85e3-4e0f-b6b9-0da2c99078eb",
+  "MOVIEID": "611143b00766c95a37b84b52"
+},{
+  "_id": {
+    "$oid": "61279ba3fbc03e8c5e5f1498"
+  },
+  "USERID": "fc2210ef-85e3-4e0f-b6b9-0da2c99078eb",
+  "MOVIEID": "61279b91fbc03e8c5e5f1497"
+}]

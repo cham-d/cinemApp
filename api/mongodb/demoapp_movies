@@ -1,0 +1,303 @@
+[{
+  "_id": {
+    "$oid": "6102cac9de7855e73f508c02"
+  },
+  "TITLE": "PALOYKI LOYK",
+  "STARTDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "CINEMANAME": "SIRINA",
+  "CATEGORY": [
+    "ACTION",
+    "erotic"
+  ]
+},{
+  "_id": {
+    "$oid": "610448e8de7855e73f508c03"
+  },
+  "TITLE": "SHUTTER ISLAND",
+  "STARTDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "CINEMANAME": "ampe CINEMAS",
+  "CATEGORY": [
+    "ACTION"
+  ]
+},{
+  "_id": {
+    "$oid": "610506a0de49b6949b304c11"
+  },
+  "TITLE": "TERMINATOR 3",
+  "STARTDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "CINEMANAME": "STARS",
+  "CATEGORY": [
+    "ACTION",
+    "erotic",
+    "adventure"
+  ]
+},{
+  "_id": {
+    "$oid": "611115d8558e4071417901a8"
+  },
+  "TITLE": "THE INFORMER",
+  "STARTDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "CINEMANAME": "ampe Cinemas",
+  "CATEGORY": [
+    "ACTION",
+    "erotic"
+  ]
+},{
+  "_id": {
+    "$oid": "61113cb3558e4071417901a9"
+  },
+  "TITLE": "PURGE",
+  "STARTDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "CINEMANAME": "2020-08-06",
+  "CATEGORY": [
+    "ACTION",
+    "erotic",
+    "HORROR"
+  ]
+},{
+  "_id": {
+    "$oid": "61114184c5ca3784216a8fe6"
+  },
+  "TITLE": "THE COLLECTOR",
+  "STARTDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "CINEMANAME": "2020-08-06",
+  "CATEGORY": [
+    "ACTION",
+    "erotic"
+  ]
+},{
+  "_id": {
+    "$oid": "6111435f0766c95a37b84b4c"
+  },
+  "TITLE": "Spiderman2",
+  "STARTDATE": {
+    "$date": "2006-08-06T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2008-08-06T00:00:00Z"
+  },
+  "CINEMANAME": "ODEON",
+  "CATEGORY": [
+    "ACTION",
+    "HORROR"
+  ]
+},{
+  "_id": {
+    "$oid": "611143770766c95a37b84b4d"
+  },
+  "TITLE": "Spiderman2",
+  "STARTDATE": {
+    "$date": "2006-08-06T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2008-08-06T00:00:00Z"
+  },
+  "CINEMANAME": "ODEON",
+  "CATEGORY": [
+    "ACTION",
+    "HORROR"
+  ]
+},{
+  "_id": {
+    "$oid": "611143a60766c95a37b84b4e"
+  },
+  "TITLE": "Spiderman2",
+  "STARTDATE": {
+    "$date": "2006-08-06T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2008-08-06T00:00:00Z"
+  },
+  "CINEMANAME": "ODEON",
+  "CATEGORY": [
+    "ACTION",
+    "HORROR"
+  ]
+},{
+  "_id": {
+    "$oid": "611143a80766c95a37b84b4f"
+  },
+  "TITLE": "THE COLLECTOR",
+  "STARTDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "CINEMANAME": "2020-08-06",
+  "CATEGORY": [
+    "ACTION",
+    "erotic"
+  ]
+},{
+  "_id": {
+    "$oid": "611143ab0766c95a37b84b50"
+  },
+  "TITLE": "PURGE",
+  "STARTDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "CINEMANAME": "2020-08-06",
+  "CATEGORY": [
+    "ACTION",
+    "erotic",
+    "HORROR"
+  ]
+},{
+  "_id": {
+    "$oid": "611143ae0766c95a37b84b51"
+  },
+  "TITLE": "THE COLLECTOR",
+  "STARTDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "CINEMANAME": "2020-08-06",
+  "CATEGORY": [
+    "ACTION",
+    "erotic"
+  ]
+},{
+  "_id": {
+    "$oid": "611143b00766c95a37b84b52"
+  },
+  "TITLE": "TERMINATOR 3",
+  "STARTDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "CINEMANAME": "STARS",
+  "CATEGORY": [
+    "ACTION",
+    "erotic",
+    "adventure"
+  ]
+},{
+  "_id": {
+    "$oid": "611143b90766c95a37b84b55"
+  },
+  "TITLE": "THE INFORMER",
+  "STARTDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "CINEMANAME": "2020-08-06",
+  "CATEGORY": [
+    "ACTION",
+    "erotic"
+  ]
+},{
+  "_id": {
+    "$oid": "611143bd0766c95a37b84b56"
+  },
+  "TITLE": "SHUTTER ISLAND",
+  "STARTDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2020-08-06T00:00:00Z"
+  },
+  "CINEMANAME": "BRYO CINEMAS",
+  "CATEGORY": [
+    "ACTION"
+  ]
+},{
+  "_id": {
+    "$oid": "61273dd7739308d2d11ed16e"
+  },
+  "TITLE": "Poka 2",
+  "STARTDATE": {
+    "$date": "2021-08-03T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2021-08-12T00:00:00Z"
+  },
+  "CINEMANAME": "odeon",
+  "CATEGORY": [
+    "HORROR"
+  ]
+},{
+  "_id": {
+    "$oid": "6127660afbc03e8c5e5f148c"
+  },
+  "TITLE": "Test2",
+  "STARTDATE": {
+    "$date": "2021-08-11T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2021-08-11T00:00:00Z"
+  },
+  "CINEMANAME": "VILLAGE",
+  "CATEGORY": [
+    "ACTION"
+  ]
+},{
+  "_id": {
+    "$oid": "61276cc5fbc03e8c5e5f148e"
+  },
+  "TITLE": "Nea Tainia",
+  "STARTDATE": {
+    "$date": "2021-08-03T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2021-08-13T00:00:00Z"
+  },
+  "CINEMANAME": "test",
+  "CATEGORY": [
+    "action"
+  ]
+},{
+  "_id": {
+    "$oid": "61279b91fbc03e8c5e5f1497"
+  },
+  "TITLE": "test_sters1",
+  "STARTDATE": {
+    "$date": "2021-08-02T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2021-08-12T00:00:00Z"
+  },
+  "CINEMANAME": "Sters",
+  "CATEGORY": [
+    "horror"
+  ]
+}]

@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}My Cinemas{% endblock %}
+{% block content %}
+
+
+<script type="module" src="{% static '/scripts/cinemas_vue.js' %}">
+
+</script>
+<link rel="stylesheet" href="{% static '/styles/movies_page_style.css' %}" type="text/css">
+
+
+<div id="app">
+
+    <div class="wrapper">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+            </div>
+            <input type="text" class="form-control box" placeholder="Search Cinemas" aria-label=""
+                aria-describedby="basic-addon1" v-model.trim="search" @keyup="searchByName">
+        </div>
+    </div>
+
+
+    <div class="spinner-border spinner-border-sm centered" style="width: 5rem; height: 5rem; " v-if="loading"></div>
+
+
+    <div id="app">
+        <div class="container">
+            <div class="card-columns d-flex justify-content-center">
+                <div class="row">
+
+
+                    <div class="card" style="width: 16rem;" v-if="!addCinema" @click="addCinema=!addCinema">
+                        <a href="#" style="text-decoration:none; color:green;" class="add">
+                            <img src="{% static 'img/cinema.png' %}" width="70" class="imgpos" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Add New Cinema</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card" style="width: 16rem;" v-if="addCinema">
+                        <div class="card-body">
+                            <input type="text" class="form-control" placeholder="Cinema Name" v-model="name">
+                            </p>
+                            <button type="button" class="btn btn-primary" @click="addCinemaFunction">Add</button>
+                            <button type="button" class="btn btn-danger" @click="addCinema=false">Cancel</button>
+
+                        </div>
+                    </div>
+
+                    <card v-for="cinema in cinemas" :key="cinema._id" v-bind:name="cinema.NAME" v-bind:id="cinema._id"
+                        v-bind:userid="userid1" v-bind:auth_token="token"></card>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    </body>
+
+    </html>
+
+    {% endblock %}

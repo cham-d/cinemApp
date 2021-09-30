@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "6150365281a6f8230ff576f6"
+  },
+  "OWNER": "1394b25b-2e6d-4c92-92db-fd0d8a3b5630",
+  "NAME": "VILLAGE"
+},{
+  "_id": {
+    "$oid": "61503657234d810b429fc761"
+  },
+  "OWNER": "1394b25b-2e6d-4c92-92db-fd0d8a3b5630",
+  "NAME": "ODEON"
+},{
+  "_id": {
+    "$oid": "615036fc81a6f8230ff576fa"
+  },
+  "OWNER": "b57a09c5-b38f-43f9-a3f6-395515ecdfdc",
+  "NAME": "Sters"
+},{
+  "_id": {
+    "$oid": "6150370c234d810b429fc764"
+  },
+  "OWNER": "b57a09c5-b38f-43f9-a3f6-395515ecdfdc",
+  "NAME": "THESSALIKON"
+}]

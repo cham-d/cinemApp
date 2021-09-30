@@ -1,0 +1,65 @@
+.wrapper{
+    display: table;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.box{
+  text-align: center;  
+  border: 1px solid #ada9a9 !important;
+  padding: 1% 6%;
+  margin: 1% 1%;
+  background-image: url(https://www.pngarea.com/pngm/109/1164446_searchicon-png-search-icon-png-download.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  outline: 0;
+  background-position: 12px;
+  background-size: 18px;
+
+}
+
+.searchBtn{
+    margin-right: 10px;
+}
+
+
+.centered {
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+.add{
+  color: green;
+}
+
+.imgpos{
+  margin-left: 34%;
+  margin-top: 8%;
+
+}
+
+.nofavs{
+  text-align: center;
+  font-size: 30px;
+}

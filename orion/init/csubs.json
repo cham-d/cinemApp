@@ -1,0 +1,295 @@
+[{
+  "_id": {
+    "$oid": "615037a5ea1b4f76533e6ced"
+  },
+  "expiration": 2209039200,
+  "reference": "http://172.18.1.9:80/sub/6dea5cbe-e0c4-4bf8-adc6-e4b2bbc54dac",
+  "custom": false,
+  "throttling": 5,
+  "servicePath": "/#",
+  "description": "6dea5cbe-e0c4-4bf8-adc6-e4b2bbc54dac",
+  "status": "active",
+  "entities": [
+    {
+      "id": "61503683234d810b429fc762",
+      "isPattern": "false",
+      "type": "Movie",
+      "isTypePattern": false
+    }
+  ],
+  "attrs": [
+    "start_date",
+    "end_date",
+    "cinema",
+    "movie_name"
+  ],
+  "metadata": [],
+  "blacklist": false,
+  "onlyChanged": false,
+  "conditions": [
+    "start_date",
+    "end_date",
+    "cinema",
+    "movie_name"
+  ],
+  "expression": {
+    "q": "",
+    "mq": "",
+    "geometry": "",
+    "coords": "",
+    "georel": ""
+  },
+  "format": "normalized"
+},{
+  "_id": {
+    "$oid": "615037a7ea1b4f76533e6cee"
+  },
+  "expiration": 2209039200,
+  "reference": "http://172.18.1.9:80/sub/6dea5cbe-e0c4-4bf8-adc6-e4b2bbc54dac",
+  "custom": false,
+  "throttling": 5,
+  "servicePath": "/#",
+  "description": "6dea5cbe-e0c4-4bf8-adc6-e4b2bbc54dac",
+  "status": "active",
+  "entities": [
+    {
+      "id": "6150375181a6f8230ff576fc",
+      "isPattern": "false",
+      "type": "Movie",
+      "isTypePattern": false
+    }
+  ],
+  "attrs": [
+    "start_date",
+    "end_date",
+    "cinema",
+    "movie_name"
+  ],
+  "metadata": [],
+  "blacklist": false,
+  "onlyChanged": false,
+  "conditions": [
+    "start_date",
+    "end_date",
+    "cinema",
+    "movie_name"
+  ],
+  "expression": {
+    "q": "",
+    "mq": "",
+    "geometry": "",
+    "coords": "",
+    "georel": ""
+  },
+  "format": "normalized"
+},{
+  "_id": {
+    "$oid": "615037a8ea1b4f76533e6cef"
+  },
+  "expiration": 2209039200,
+  "reference": "http://172.18.1.9:80/sub/6dea5cbe-e0c4-4bf8-adc6-e4b2bbc54dac",
+  "custom": false,
+  "throttling": 5,
+  "servicePath": "/#",
+  "description": "6dea5cbe-e0c4-4bf8-adc6-e4b2bbc54dac",
+  "status": "active",
+  "entities": [
+    {
+      "id": "615036a581a6f8230ff576f9",
+      "isPattern": "false",
+      "type": "Movie",
+      "isTypePattern": false
+    }
+  ],
+  "attrs": [
+    "start_date",
+    "end_date",
+    "cinema",
+    "movie_name"
+  ],
+  "metadata": [],
+  "blacklist": false,
+  "onlyChanged": false,
+  "conditions": [
+    "start_date",
+    "end_date",
+    "cinema",
+    "movie_name"
+  ],
+  "expression": {
+    "q": "",
+    "mq": "",
+    "geometry": "",
+    "coords": "",
+    "georel": ""
+  },
+  "format": "normalized"
+},{
+  "_id": {
+    "$oid": "61503868ea1b4f76533e6cf0"
+  },
+  "expiration": 2209039200,
+  "reference": "http://172.18.1.9:80/sub/41720b4c-8477-4fbb-890c-1ab6df041e00",
+  "custom": false,
+  "throttling": 5,
+  "servicePath": "/#",
+  "description": "41720b4c-8477-4fbb-890c-1ab6df041e00",
+  "status": "active",
+  "entities": [
+    {
+      "id": "6150379081a6f8230ff576fd",
+      "isPattern": "false",
+      "type": "Movie",
+      "isTypePattern": false
+    }
+  ],
+  "attrs": [
+    "start_date",
+    "end_date",
+    "cinema",
+    "movie_name"
+  ],
+  "metadata": [],
+  "blacklist": false,
+  "onlyChanged": false,
+  "conditions": [
+    "start_date",
+    "end_date",
+    "cinema",
+    "movie_name"
+  ],
+  "expression": {
+    "q": "",
+    "mq": "",
+    "geometry": "",
+    "coords": "",
+    "georel": ""
+  },
+  "format": "normalized"
+},{
+  "_id": {
+    "$oid": "61503869ea1b4f76533e6cf1"
+  },
+  "expiration": 2209039200,
+  "reference": "http://172.18.1.9:80/sub/41720b4c-8477-4fbb-890c-1ab6df041e00",
+  "custom": false,
+  "throttling": 5,
+  "servicePath": "/#",
+  "description": "41720b4c-8477-4fbb-890c-1ab6df041e00",
+  "status": "active",
+  "entities": [
+    {
+      "id": "6150376e234d810b429fc766",
+      "isPattern": "false",
+      "type": "Movie",
+      "isTypePattern": false
+    }
+  ],
+  "attrs": [
+    "start_date",
+    "end_date",
+    "cinema",
+    "movie_name"
+  ],
+  "metadata": [],
+  "blacklist": false,
+  "onlyChanged": false,
+  "conditions": [
+    "start_date",
+    "end_date",
+    "cinema",
+    "movie_name"
+  ],
+  "expression": {
+    "q": "",
+    "mq": "",
+    "geometry": "",
+    "coords": "",
+    "georel": ""
+  },
+  "format": "normalized"
+},{
+  "_id": {
+    "$oid": "6150386aea1b4f76533e6cf2"
+  },
+  "expiration": 2209039200,
+  "reference": "http://172.18.1.9:80/sub/41720b4c-8477-4fbb-890c-1ab6df041e00",
+  "custom": false,
+  "throttling": 5,
+  "servicePath": "/#",
+  "description": "41720b4c-8477-4fbb-890c-1ab6df041e00",
+  "status": "active",
+  "entities": [
+    {
+      "id": "6150373b234d810b429fc765",
+      "isPattern": "false",
+      "type": "Movie",
+      "isTypePattern": false
+    }
+  ],
+  "attrs": [
+    "start_date",
+    "end_date",
+    "cinema",
+    "movie_name"
+  ],
+  "metadata": [],
+  "blacklist": false,
+  "onlyChanged": false,
+  "conditions": [
+    "start_date",
+    "end_date",
+    "cinema",
+    "movie_name"
+  ],
+  "expression": {
+    "q": "",
+    "mq": "",
+    "geometry": "",
+    "coords": "",
+    "georel": ""
+  },
+  "format": "normalized"
+},{
+  "_id": {
+    "$oid": "6150386aea1b4f76533e6cf3"
+  },
+  "expiration": 2209039200,
+  "reference": "http://172.18.1.9:80/sub/41720b4c-8477-4fbb-890c-1ab6df041e00",
+  "custom": false,
+  "throttling": 5,
+  "servicePath": "/#",
+  "description": "41720b4c-8477-4fbb-890c-1ab6df041e00",
+  "status": "active",
+  "entities": [
+    {
+      "id": "6150369581a6f8230ff576f8",
+      "isPattern": "false",
+      "type": "Movie",
+      "isTypePattern": false
+    }
+  ],
+  "attrs": [
+    "start_date",
+    "end_date",
+    "cinema",
+    "movie_name"
+  ],
+  "metadata": [],
+  "blacklist": false,
+  "onlyChanged": false,
+  "conditions": [
+    "start_date",
+    "end_date",
+    "cinema",
+    "movie_name"
+  ],
+  "expression": {
+    "q": "",
+    "mq": "",
+    "geometry": "",
+    "coords": "",
+    "georel": ""
+  },
+  "format": "normalized"
+}]

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Not authorized{% endblock %}
+{% block content %}
+
+
+<script type="module" src="{% static '/scripts/vue.js' %}">
+</script>
+<link rel="stylesheet" href="{% static '/styles/movies_page_style.css' %}" type="text/css">
+
+
+<h1>You are not authorized to see this page.</h1>
+
+
+</body>
+
+</html>
+
+{% endblock %}

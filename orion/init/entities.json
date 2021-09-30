@@ -1,0 +1,451 @@
+[{
+  "_id": {
+    "id": "6150366c81a6f8230ff576f7",
+    "type": "Movie",
+    "servicePath": "/"
+  },
+  "attrNames": [
+    "start_date",
+    "end_date",
+    "movie_name",
+    "cinema"
+  ],
+  "attrs": {
+    "start_date": {
+      "type": "Date",
+      "creDate": 1632646764.7156763,
+      "modDate": 1632646764.7156763,
+      "value": "2021-09-13",
+      "mdNames": []
+    },
+    "end_date": {
+      "type": "Date",
+      "creDate": 1632646764.7156763,
+      "modDate": 1632646764.7156763,
+      "value": "2021-10-02",
+      "mdNames": []
+    },
+    "movie_name": {
+      "type": "String",
+      "creDate": 1632646764.7156763,
+      "modDate": 1632646764.7156763,
+      "value": "The Godfather",
+      "mdNames": []
+    },
+    "cinema": {
+      "type": "String",
+      "creDate": 1632646764.7156763,
+      "modDate": 1632646764.7156763,
+      "value": "VILLAGE",
+      "mdNames": []
+    }
+  },
+  "creDate": 1632646764.7156763,
+  "modDate": 1632646764.7156763,
+  "lastCorrelator": "0c0cce46-1ea8-11ec-8b5e-0242ac12010c"
+},{
+  "_id": {
+    "id": "61503683234d810b429fc762",
+    "type": "Movie",
+    "servicePath": "/"
+  },
+  "attrNames": [
+    "start_date",
+    "end_date",
+    "movie_name",
+    "cinema"
+  ],
+  "attrs": {
+    "start_date": {
+      "type": "Date",
+      "creDate": 1632646787.580174,
+      "modDate": 1632646787.580174,
+      "value": "2021-09-08",
+      "mdNames": []
+    },
+    "end_date": {
+      "type": "Date",
+      "creDate": 1632646787.580174,
+      "modDate": 1632646787.580174,
+      "value": "2021-09-24",
+      "mdNames": []
+    },
+    "movie_name": {
+      "type": "String",
+      "creDate": 1632646787.580174,
+      "modDate": 1632646787.580174,
+      "value": "Fight Club",
+      "mdNames": []
+    },
+    "cinema": {
+      "type": "String",
+      "creDate": 1632646787.580174,
+      "modDate": 1632646787.580174,
+      "value": "ODEON",
+      "mdNames": []
+    }
+  },
+  "creDate": 1632646787.580174,
+  "modDate": 1632646787.580174,
+  "lastCorrelator": "19ad97f6-1ea8-11ec-8fc9-0242ac12010c"
+},{
+  "_id": {
+    "id": "6150369581a6f8230ff576f8",
+    "type": "Movie",
+    "servicePath": "/"
+  },
+  "attrNames": [
+    "start_date",
+    "end_date",
+    "movie_name",
+    "cinema"
+  ],
+  "attrs": {
+    "start_date": {
+      "type": "Date",
+      "creDate": 1632646805.420756,
+      "modDate": 1632646805.420756,
+      "value": "2021-09-14",
+      "mdNames": []
+    },
+    "end_date": {
+      "type": "Date",
+      "creDate": 1632646805.420756,
+      "modDate": 1632646805.420756,
+      "value": "2021-09-30",
+      "mdNames": []
+    },
+    "movie_name": {
+      "type": "String",
+      "creDate": 1632646805.420756,
+      "modDate": 1632646805.420756,
+      "value": "Inception",
+      "mdNames": []
+    },
+    "cinema": {
+      "type": "String",
+      "creDate": 1632646805.420756,
+      "modDate": 1632646805.420756,
+      "value": "VILLAGE",
+      "mdNames": []
+    }
+  },
+  "creDate": 1632646805.420756,
+  "modDate": 1632646805.420756,
+  "lastCorrelator": "244fe240-1ea8-11ec-b794-0242ac12010c"
+},{
+  "_id": {
+    "id": "615036a581a6f8230ff576f9",
+    "type": "Movie",
+    "servicePath": "/"
+  },
+  "attrNames": [
+    "start_date",
+    "end_date",
+    "movie_name",
+    "cinema"
+  ],
+  "attrs": {
+    "start_date": {
+      "type": "Date",
+      "creDate": 1632646821.3334491,
+      "modDate": 1632646821.3334491,
+      "value": "2021-09-14",
+      "mdNames": []
+    },
+    "end_date": {
+      "type": "Date",
+      "creDate": 1632646821.3334491,
+      "modDate": 1632646821.3334491,
+      "value": "2021-10-01",
+      "mdNames": []
+    },
+    "movie_name": {
+      "type": "String",
+      "creDate": 1632646821.3334491,
+      "modDate": 1632646821.3334491,
+      "value": "Parasite",
+      "mdNames": []
+    },
+    "cinema": {
+      "type": "String",
+      "creDate": 1632646821.3334491,
+      "modDate": 1632646821.3334491,
+      "value": "VILLAGE",
+      "mdNames": []
+    }
+  },
+  "creDate": 1632646821.3334491,
+  "modDate": 1632646821.3334491,
+  "lastCorrelator": "2dcbf2fa-1ea8-11ec-be03-0242ac12010c"
+},{
+  "_id": {
+    "id": "615036b6234d810b429fc763",
+    "type": "Movie",
+    "servicePath": "/"
+  },
+  "attrNames": [
+    "start_date",
+    "end_date",
+    "movie_name",
+    "cinema"
+  ],
+  "attrs": {
+    "start_date": {
+      "type": "Date",
+      "creDate": 1632646838.9724705,
+      "modDate": 1632646838.9724705,
+      "value": "2021-09-01",
+      "mdNames": []
+    },
+    "end_date": {
+      "type": "Date",
+      "creDate": 1632646838.9724705,
+      "modDate": 1632646838.9724705,
+      "value": "2021-10-07",
+      "mdNames": []
+    },
+    "movie_name": {
+      "type": "String",
+      "creDate": 1632646838.9724705,
+      "modDate": 1632646838.9724705,
+      "value": "Psycho",
+      "mdNames": []
+    },
+    "cinema": {
+      "type": "String",
+      "creDate": 1632646838.9724705,
+      "modDate": 1632646838.9724705,
+      "value": "ODEON",
+      "mdNames": []
+    }
+  },
+  "creDate": 1632646838.9724705,
+  "modDate": 1632646838.9724705,
+  "lastCorrelator": "384f6f36-1ea8-11ec-990a-0242ac12010c"
+},{
+  "_id": {
+    "id": "6150372281a6f8230ff576fb",
+    "type": "Movie",
+    "servicePath": "/"
+  },
+  "attrNames": [
+    "start_date",
+    "end_date",
+    "movie_name",
+    "cinema"
+  ],
+  "attrs": {
+    "start_date": {
+      "type": "Date",
+      "creDate": 1632646946.6549091,
+      "modDate": 1632646946.6549091,
+      "value": "2021-09-01",
+      "mdNames": []
+    },
+    "end_date": {
+      "type": "Date",
+      "creDate": 1632646946.6549091,
+      "modDate": 1632646946.6549091,
+      "value": "2021-10-09",
+      "mdNames": []
+    },
+    "movie_name": {
+      "type": "String",
+      "creDate": 1632646946.6549091,
+      "modDate": 1632646946.6549091,
+      "value": "The Prestige",
+      "mdNames": []
+    },
+    "cinema": {
+      "type": "String",
+      "creDate": 1632646946.6549091,
+      "modDate": 1632646946.6549091,
+      "value": "THESSALIKON",
+      "mdNames": []
+    }
+  },
+  "creDate": 1632646946.6549091,
+  "modDate": 1632646946.6549091,
+  "lastCorrelator": "787e8376-1ea8-11ec-905b-0242ac12010c"
+},{
+  "_id": {
+    "id": "6150373b234d810b429fc765",
+    "type": "Movie",
+    "servicePath": "/"
+  },
+  "attrNames": [
+    "start_date",
+    "end_date",
+    "movie_name",
+    "cinema"
+  ],
+  "attrs": {
+    "start_date": {
+      "type": "Date",
+      "creDate": 1632646971.4144082,
+      "modDate": 1632646971.4144082,
+      "value": "2021-09-20",
+      "mdNames": []
+    },
+    "end_date": {
+      "type": "Date",
+      "creDate": 1632646971.4144082,
+      "modDate": 1632646971.4144082,
+      "value": "2021-10-07",
+      "mdNames": []
+    },
+    "movie_name": {
+      "type": "String",
+      "creDate": 1632646971.4144082,
+      "modDate": 1632646971.4144082,
+      "value": "Memento",
+      "mdNames": []
+    },
+    "cinema": {
+      "type": "String",
+      "creDate": 1632646971.4144082,
+      "modDate": 1632646971.4144082,
+      "value": "Sters",
+      "mdNames": []
+    }
+  },
+  "creDate": 1632646971.4144082,
+  "modDate": 1632646971.4144082,
+  "lastCorrelator": "87406a1e-1ea8-11ec-9c9c-0242ac12010c"
+},{
+  "_id": {
+    "id": "6150375181a6f8230ff576fc",
+    "type": "Movie",
+    "servicePath": "/"
+  },
+  "attrNames": [
+    "start_date",
+    "end_date",
+    "movie_name",
+    "cinema"
+  ],
+  "attrs": {
+    "start_date": {
+      "type": "Date",
+      "creDate": 1632646993.1304135,
+      "modDate": 1632646993.1304135,
+      "value": "2021-09-06",
+      "mdNames": []
+    },
+    "end_date": {
+      "type": "Date",
+      "creDate": 1632646993.1304135,
+      "modDate": 1632646993.1304135,
+      "value": "2021-10-07",
+      "mdNames": []
+    },
+    "movie_name": {
+      "type": "String",
+      "creDate": 1632646993.1304135,
+      "modDate": 1632646993.1304135,
+      "value": "Joker",
+      "mdNames": []
+    },
+    "cinema": {
+      "type": "String",
+      "creDate": 1632646993.1304135,
+      "modDate": 1632646993.1304135,
+      "value": "THESSALIKON",
+      "mdNames": []
+    }
+  },
+  "creDate": 1632646993.1304135,
+  "modDate": 1632646993.1304135,
+  "lastCorrelator": "9431caf6-1ea8-11ec-97eb-0242ac12010c"
+},{
+  "_id": {
+    "id": "6150376e234d810b429fc766",
+    "type": "Movie",
+    "servicePath": "/"
+  },
+  "attrNames": [
+    "start_date",
+    "end_date",
+    "movie_name",
+    "cinema"
+  ],
+  "attrs": {
+    "start_date": {
+      "type": "Date",
+      "creDate": 1632647023.0258584,
+      "modDate": 1632647023.0258584,
+      "value": "2021-09-14",
+      "mdNames": []
+    },
+    "end_date": {
+      "type": "Date",
+      "creDate": 1632647023.0258584,
+      "modDate": 1632647023.0258584,
+      "value": "2021-09-30",
+      "mdNames": []
+    },
+    "movie_name": {
+      "type": "String",
+      "creDate": 1632647023.0258584,
+      "modDate": 1632647023.0258584,
+      "value": "Dune ",
+      "mdNames": []
+    },
+    "cinema": {
+      "type": "String",
+      "creDate": 1632647023.0258584,
+      "modDate": 1632647023.0258584,
+      "value": "Sters",
+      "mdNames": []
+    }
+  },
+  "creDate": 1632647023.0258584,
+  "modDate": 1632647023.0258584,
+  "lastCorrelator": "a603c270-1ea8-11ec-80b7-0242ac12010c"
+},{
+  "_id": {
+    "id": "6150379081a6f8230ff576fd",
+    "type": "Movie",
+    "servicePath": "/"
+  },
+  "attrNames": [
+    "start_date",
+    "end_date",
+    "movie_name",
+    "cinema"
+  ],
+  "attrs": {
+    "start_date": {
+      "type": "Date",
+      "creDate": 1632647056.566997,
+      "modDate": 1632647056.566997,
+      "value": "2021-09-13",
+      "mdNames": []
+    },
+    "end_date": {
+      "type": "Date",
+      "creDate": 1632647056.566997,
+      "modDate": 1632647056.566997,
+      "value": "2021-10-01",
+      "mdNames": []
+    },
+    "movie_name": {
+      "type": "String",
+      "creDate": 1632647056.566997,
+      "modDate": 1632647056.566997,
+      "value": "Taxi Driver",
+      "mdNames": []
+    },
+    "cinema": {
+      "type": "String",
+      "creDate": 1632647056.566997,
+      "modDate": 1632647056.566997,
+      "value": "THESSALIKON",
+      "mdNames": []
+    }
+  },
+  "creDate": 1632647056.566997,
+  "modDate": 1632647056.566997,
+  "lastCorrelator": "ba01a986-1ea8-11ec-b763-0242ac12010c"
+}]

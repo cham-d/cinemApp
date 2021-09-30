@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "6150379a81a6f8230ff576fe"
+  },
+  "USERID": "6dea5cbe-e0c4-4bf8-adc6-e4b2bbc54dac",
+  "MOVIEID": "6150366c81a6f8230ff576f7"
+},{
+  "_id": {
+    "$oid": "6150379b81a6f8230ff576ff"
+  },
+  "USERID": "6dea5cbe-e0c4-4bf8-adc6-e4b2bbc54dac",
+  "MOVIEID": "6150369581a6f8230ff576f8"
+},{
+  "_id": {
+    "$oid": "6150379c234d810b429fc767"
+  },
+  "USERID": "6dea5cbe-e0c4-4bf8-adc6-e4b2bbc54dac",
+  "MOVIEID": "6150376e234d810b429fc766"
+},{
+  "_id": {
+    "$oid": "6150379c81a6f8230ff57700"
+  },
+  "USERID": "6dea5cbe-e0c4-4bf8-adc6-e4b2bbc54dac",
+  "MOVIEID": "6150373b234d810b429fc765"
+},{
+  "_id": {
+    "$oid": "6150386681a6f8230ff57702"
+  },
+  "USERID": "41720b4c-8477-4fbb-890c-1ab6df041e00",
+  "MOVIEID": "6150372281a6f8230ff576fb"
+},{
+  "_id": {
+    "$oid": "61503866234d810b429fc76a"
+  },
+  "USERID": "41720b4c-8477-4fbb-890c-1ab6df041e00",
+  "MOVIEID": "6150375181a6f8230ff576fc"
+},{
+  "_id": {
+    "$oid": "6150386781a6f8230ff57703"
+  },
+  "USERID": "41720b4c-8477-4fbb-890c-1ab6df041e00",
+  "MOVIEID": "6150376e234d810b429fc766"
+},{
+  "_id": {
+    "$oid": "6150386881a6f8230ff57704"
+  },
+  "USERID": "41720b4c-8477-4fbb-890c-1ab6df041e00",
+  "MOVIEID": "6150379081a6f8230ff576fd"
+}]

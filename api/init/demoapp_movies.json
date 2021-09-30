@@ -1,0 +1,153 @@
+[{
+  "_id": {
+    "$oid": "6150366c81a6f8230ff576f7"
+  },
+  "TITLE": "The Godfather",
+  "STARTDATE": {
+    "$date": "2021-09-13T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2021-10-02T00:00:00Z"
+  },
+  "CINEMANAME": "VILLAGE",
+  "CATEGORY": [
+    "Action",
+    "Adventure"
+  ]
+},{
+  "_id": {
+    "$oid": "61503683234d810b429fc762"
+  },
+  "TITLE": "Fight Club",
+  "STARTDATE": {
+    "$date": "2021-09-08T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2021-09-24T00:00:00Z"
+  },
+  "CINEMANAME": "ODEON",
+  "CATEGORY": [
+    "Action"
+  ]
+},{
+  "_id": {
+    "$oid": "6150369581a6f8230ff576f8"
+  },
+  "TITLE": "Inception",
+  "STARTDATE": {
+    "$date": "2021-09-14T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2021-09-30T00:00:00Z"
+  },
+  "CINEMANAME": "VILLAGE",
+  "CATEGORY": [
+    "Action",
+    "Horror "
+  ]
+},{
+  "_id": {
+    "$oid": "615036a581a6f8230ff576f9"
+  },
+  "TITLE": "Parasite",
+  "STARTDATE": {
+    "$date": "2021-09-14T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2021-10-01T00:00:00Z"
+  },
+  "CINEMANAME": "VILLAGE",
+  "CATEGORY": [
+    "Adventure"
+  ]
+},{
+  "_id": {
+    "$oid": "615036b6234d810b429fc763"
+  },
+  "TITLE": "Psycho",
+  "STARTDATE": {
+    "$date": "2021-09-01T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2021-10-07T00:00:00Z"
+  },
+  "CINEMANAME": "ODEON",
+  "CATEGORY": [
+    "Horror"
+  ]
+},{
+  "_id": {
+    "$oid": "6150372281a6f8230ff576fb"
+  },
+  "TITLE": "The Prestige",
+  "STARTDATE": {
+    "$date": "2021-09-01T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2021-10-09T00:00:00Z"
+  },
+  "CINEMANAME": "THESSALIKON",
+  "CATEGORY": [
+    "Horror"
+  ]
+},{
+  "_id": {
+    "$oid": "6150373b234d810b429fc765"
+  },
+  "TITLE": "Memento",
+  "STARTDATE": {
+    "$date": "2021-09-20T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2021-10-07T00:00:00Z"
+  },
+  "CINEMANAME": "Sters",
+  "CATEGORY": [
+    "Action"
+  ]
+},{
+  "_id": {
+    "$oid": "6150375181a6f8230ff576fc"
+  },
+  "TITLE": "Joker",
+  "STARTDATE": {
+    "$date": "2021-09-06T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2021-10-07T00:00:00Z"
+  },
+  "CINEMANAME": "THESSALIKON",
+  "CATEGORY": [
+    "Adventure"
+  ]
+},{
+  "_id": {
+    "$oid": "6150376e234d810b429fc766"
+  },
+  "TITLE": "Dune",
+  "STARTDATE": {
+    "$date": "2021-09-14T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2021-09-30T00:00:00Z"
+  },
+  "CINEMANAME": "Sters",
+  "CATEGORY": [
+    "Action"
+  ]
+},{
+  "_id": {
+    "$oid": "6150379081a6f8230ff576fd"
+  },
+  "TITLE": "Taxi Driver",
+  "STARTDATE": {
+    "$date": "2021-09-13T00:00:00Z"
+  },
+  "ENDDATE": {
+    "$date": "2021-10-01T00:00:00Z"
+  },
+  "CINEMANAME": "THESSALIKON",
+  "CATEGORY": [
+    "Horror"
+  ]
+}]

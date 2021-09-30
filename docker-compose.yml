@@ -1,0 +1,184 @@
+version: '3.5'
+services:
+    keyrock:
+        restart: always
+        image: fiware/idm:7.6.0
+        container_name: fiware-keyrock
+        hostname: keyrock
+        networks:
+            default:
+                ipv4_address: 172.18.1.5
+        depends_on:
+            - mysql-db
+        ports:
+            - '3000:3000'
+            - '443:443'
+        environment:
+            - DEBUG=idm:*
+            - IDM_DB_HOST=mysql-db
+            - IDM_HOST=http://localhost:3000
+            - IDM_PORT=3000
+            # Development use only
+            # Use Docker Secrets for Sensitive Data
+            - IDM_DB_PASS=secret
+            - IDM_DB_USER=root
+            - IDM_ADMIN_USER=admin
+            - IDM_ADMIN_EMAIL=admin@test.com
+            - IDM_ADMIN_PASS=1234
+            # If sending eMails point to any STMP server
+            - IDM_EMAIL_HOST=mailer
+            - IDM_EMAIL_PORT=25
+
+    mysql-db:
+        restart: always
+        image: mysql:5.7
+        hostname: mysql-db
+        container_name: db-mysql
+        expose:
+            - '3300'
+        ports:
+            - '3300:3306'
+        healthcheck:
+            test: ["CMD-SHELL", 'mysqladmin ping']
+            interval: 10s
+            timeout: 2s
+            retries: 10        
+        networks:
+            default:
+                ipv4_address: 172.18.1.6
+        environment:
+            # Development use only
+            # Use Docker Secrets for Sensitive Data
+            - 'MYSQL_ROOT_PASSWORD=secret'
+            - 'MYSQL_ROOT_HOST=%'
+        volumes:
+            - ./mysql/init/dump.sql:/docker-entrypoint-initdb.d/start.sql
+            
+    webserver:
+      restart: always
+      build: ./webserver
+      container_name: apache_webserver
+      depends_on:
+        mysql-db:
+          condition: service_healthy
+
+      ports:
+        - 8000:80
+      networks:
+          default:
+              ipv4_address: 172.18.1.7
+      volumes:
+        - ./webserver/test0aouth2_django:/var/www/test0aouth2_django
+        - ./webserver/apache_django.conf:/etc/apache2/sites-available/000-default.conf
+        - ./webserver/startup.sh:/var/www/startup.sh
+      command: server
+    
+    pep-proxy:
+      restart: always
+      build: ./pep-proxy
+      container_name: pep-proxy
+      ports:
+        - 7000:7000
+      networks:
+          default:
+              ipv4_address: 172.18.1.8
+      environment:
+          - PEP_PROXY_PORT=7000
+          - PEP_PROXY_IDM_HOST=172.18.1.5
+          - PEP_PROXY_IDM_PORT=3000
+          - PEP_PROXY_APP_HOST=172.18.1.9
+          - PEP_PROXY_APP_ID=4601658a-fa48-4d96-b9ba-905045f04909
+          - PEP_PROXY_USERNAME=pep_proxy_369301e2-8beb-4f20-b5e3-a9f744ce4a8a
+          - PEP_PASSWORD=pep_proxy_db04ea74-9103-4fcb-80e8-e58a17f4e80a
+          - PEP_TOKEN_SECRET=cd957f0205f3a38b
+    
+    mongo:
+      restart: always
+      image: mongo
+      container_name: mongo
+      restart: always
+      ports:
+        - 5000:5000
+      networks:
+          default:
+              ipv4_address: 172.18.1.10
+      environment:
+        MONGO_INITDB_ROOT_USERNAME: root
+        MONGO_INITDB_ROOT_PASSWORD: example
+        MONGO_INITDB_DATABASE: cinemaAPP_DATA
+      volumes:
+        - ./api/init:/docker-entrypoint-initdb.d
+      command: mongod --port 5000 --bind_ip_all
+   
+    
+      
+    api:
+      restart: always
+      build: ./api
+      container_name: api
+      ports:
+        - 4000:4000
+      networks:
+          default:
+              ipv4_address: 172.18.1.9
+      volumes:
+        - ./api/cinemAPI:/var/www/cinemAPI
+        - ./api/apache_django.conf:/etc/apache2/sites-available/000-default.conf
+        - ./api/startup.sh:/var/www/startup.sh
+      command: server
+
+    mongo_for_orion:
+      restart: always
+      image: mongo
+      container_name: mongo_for_orion
+      ports:
+        - 27018:27017
+      networks:
+          default:
+              ipv4_address: 172.18.1.11
+      volumes:
+        - ./orion/init:/docker-entrypoint-initdb.d
+      command: mongod --port 27017 --bind_ip_all --nojournal
+      
+    orion:
+      restart: always
+      image: fiware/orion
+      container_name: orion_cb
+      links:
+        - mongo_for_orion
+      ports:
+        - "1026:1026"
+      networks:
+          default:
+              ipv4_address: 172.18.1.12
+      command: -dbhost 172.18.1.11 -corsOrigin __ALL
+      
+
+    pep-proxy_orion:
+      restart: always
+      build: ./pep-proxy
+      container_name: pep-proxy_orion
+      ports:
+        - 3005:3005
+      networks:
+          default:
+              ipv4_address: 172.18.1.13
+      environment:
+          - PEP_PROXY_PORT=3005
+          - PEP_PROXY_IDM_HOST=172.18.1.5
+          - PEP_PROXY_IDM_PORT=3000
+          - PEP_PROXY_APP_HOST=172.18.1.12
+          - PEP_PROXY_APP_PORT=1026
+          - PEP_PROXY_APP_ID=4601658a-fa48-4d96-b9ba-905045f04909
+          - PEP_PROXY_USERNAME=pep_proxy_369301e2-8beb-4f20-b5e3-a9f744ce4a8a
+          - PEP_PASSWORD=pep_proxy_db04ea74-9103-4fcb-80e8-e58a17f4e80a
+          - PEP_TOKEN_SECRET=cd957f0205f3a38b
+          
+networks:
+    default:
+        ipam:
+            config:
+                - subnet: 172.18.1.0/24
+volumes:
+    mysql-db: ~
+

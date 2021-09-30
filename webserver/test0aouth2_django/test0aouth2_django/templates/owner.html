@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}My Movies{% endblock %}
+{% block content %}
+
+
+<script type="module" src="{% static '/scripts/owner_vue.js' %}">
+
+</script>
+<link rel="stylesheet" href="{% static '/styles/movies_page_style.css' %}" type="text/css">
+
+
+<div id="app">
+
+    <div class="wrapper">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <button class="btn btn-outline-secondary searchBtn" type="button"
+                    v-on:click="show_costum_search = !show_costum_search">Costum Search</button>
+            </div>
+            <input type="text" class="form-control box" placeholder="Search Movies" aria-label=""
+                aria-describedby="basic-addon1" v-model.trim="search" @keyup="searchByName">
+        </div>
+    </div>
+
+
+    <transition name="slide-fade">
+        <v-model-select v-on:ecentname="testMethod($event)" v-on:searchcinemanamesevent="searchByCinemaName($event)"
+            v-on:searchstartdateevent="searchByStartDate($event)" v-on:searchenddateevent="searchByEndDate($event)"
+            :attributes="['Horror', 'Action', 'Adventure', 'Erotic']" v-if="show_costum_search"></v-model-select>
+    </transition>
+    <div class="spinner-border spinner-border-sm centered" style="width: 5rem; height: 5rem; " v-if="loading"></div>
+
+
+    <div id="app">
+        <div class="container">
+            <div class="card-columns d-flex justify-content-center">
+                <div class="row">
+
+
+                    <div class="card" style="width: 16rem;" v-if="!addMovie" @click="addMovie=!addMovie">
+                        <a href="#" style="text-decoration:none; color:green;" class="add">
+                            <img src="{% static 'img/add.png' %}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Add New Movie</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card" style="width: 16rem;" v-if="addMovie">
+                        <div class="card-body">
+                            <input type="text" class="form-control" placeholder="Title" v-model="title">
+                            <p class="card-text"><b><mark><em>Start Date:</em></mark></b>
+                                <input type="date" class="form-control" placeholder="Start Date" v-model="startdate">
+                            <p class="card-text"><b><mark><em>End Date:</em></mark></b>
+                                <input type="date" class="form-control" placeholder="End Date" v-model="enddate">
+                                <select class="form-select" aria-label="Default select example" v-model="cinemaname">
+                                    <option disabled>Select a Cinema:</option>
+                                    <option v-for="cinema in this.cinemas" :value="cinema.NAME">[[cinema.NAME]]</option>
+                                </select>
+                                <input type="text" class="form-control" placeholder="Category" v-model="category">
+
+
+
+                            </p>
+                            <button type="button" class="btn btn-primary" @click="addMovieFunction">Add</button>
+                            <button type="button" class="btn btn-danger" @click="addMovie=false">Cancel</button>
+
+                        </div>
+                    </div>
+
+                    <card v-for="movie in movies" :key="movie._id" v-bind:title="movie.TITLE" v-bind:id="movie._id"
+                        v-bind:start_date="movie.STARTDATE" v-bind:end_date="movie.ENDDATE"
+                        v-bind:cinema="movie.CINEMANAME" v-bind:category="movie.CATEGORY" v-bind:cinemas="cinemas"
+                        v-bind:destroyafterremove="false" v-bind:auth_token="token"></card>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    </body>
+
+    </html>
+
+    {% endblock %}

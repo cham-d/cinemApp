@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Feed{% endblock %}
+{% block content %}
+
+
+<script type="module" src="{% static '/scripts/feed.js' %}">
+</script>
+<link rel="stylesheet" href="{% static '/styles/movies_page_style.css' %}" type="text/css">
+
+
+<div id="app">
+
+
+    <div class="spinner-border spinner-border-sm centered" style="width: 5rem; height: 5rem; " v-if="rendering"></div>
+
+
+    <div class="container" v-if="!rendering">
+        <div class="card-columns d-flex justify-content-center">
+            <div class="row">
+                <card v-for="notification in displayNotifications.slice().reverse()" :key="notification.title"
+                    v-bind:start_date="notification.start_date" v-bind:end_date="notification.end_date"
+                    v-bind:title="notification.title" v-bind:cinema="notification.cinema"
+                    v-bind:startnotification="notification.startnotification"></card>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+</body>
+
+</html>
+
+{% endblock %}
